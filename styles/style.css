@@ -63,7 +63,7 @@ button {
 
 /*--LOGO--*/
 
-.logo-lighttheme {
+.logo-light-theme {
   font-family: "Raleway", "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -73,11 +73,11 @@ button {
   color: var(--secondary-color);
 }
 
-.logo-lighttheme > span {
+.logo-light-theme > span {
   color: var(--main-color);
 }
 
-.logo-darktheme {
+.logo-dark-theme {
   font-family: "Raleway", "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -86,7 +86,7 @@ button {
   color: var(--secondary-color);
 }
 
-.logo-darktheme > span {
+.logo-dark-theme > span {
   color: var(--third-color);
 }
 
@@ -483,7 +483,7 @@ textarea {
   color: var(--main-color);
 }
 
-.iconcont {
+.icon-cont {
   height: 120px;
   width: 270px;
   margin-bottom: 30px;

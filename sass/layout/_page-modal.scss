@@ -75,7 +75,7 @@
     color: getColor(article-primary);
   }
 
-  &__window {
+  &__field-container {
     position: relative;
   }
 
@@ -135,7 +135,7 @@
   }
 }
 
-.modal-check {
+.modal-policy, .modal-check {
   position: relative;
   display: flex;
   justify-content: space-evenly;
