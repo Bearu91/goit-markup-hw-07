@@ -4,25 +4,19 @@
   max-width: 1600px;
   justify-content: center;
   flex-wrap: wrap;
+}
+.employee-section {
 
   &__list {
     margin-top: 50px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    row-gap: 30px;
-    column-gap: 30px;
+    gap: 30px;
+    
   }
 
-  &__header {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.167;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: getColor(header-primary);
-  }
-
+ 
   &__name {
     font-size: 16px;
     line-height: 1.1875;
