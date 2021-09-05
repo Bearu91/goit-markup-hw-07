@@ -140,7 +140,7 @@
       </li>
     </ul>
   </section>
-  <section class="about">
+  <section class="about container">
     <h2 class="section-header">Czym się zajmujemy</h2>
     <ul class="about-section__gallery list">
       <li class="about-section__item">
@@ -160,12 +160,24 @@
       </li>
     </ul>
   </section>
-  <section class="employee">
+  <section class="employee container">
     <h2 class="section-header">Nasz zespół</h2>
     <ul class="employee-section__list list">
       <li class="employee-section__tile">
-        <img src="./images/employers/img-3.jpg" width="270" height="260"
-          alt="smiling man in glasses, with a short beard, and in a maroon buttoned shirt" />
+        <picture class="employee__photo">
+          <source srcset="./images/employers/employee1desk1x.jpg 1x, ./images/employers/employee1desk2x.jpg 2x"
+            media="(min-width:1200px)">
+          <source srcset="./images/employers/employee1desk1x.webp 1x, ./images/employers/employee1desk2x.webp 2x"
+            media="(min-width:1200px)" type="image/webp">
+          <source srcset="./images/employers/employee1tab1x.jpg 1x, ./images/employers/employee1tab2x.jpg 2x"
+            media="(min-width:768px)">
+          <source srcset="./images/employers/employee1tab1x.webp 1x, ./images/employers/employee1tab2x.webp 2x"
+            media="(min-width:768px)" type="image/webp">
+
+          <img src="./images/employers/employee1mobile1x.webp 1x, ./images/employers/employee1mobile2x.webp 2x"
+            srcset="./images/employers/employee1mobile1x.jpg 1x, ./images/employers/employee1mobile2x.jpg 2x"
+            alt="smiling man in glasses, with a short beard, and in a maroon buttoned shirt" />
+        </picture>
         <div class="employee-section__description">
           <h3 class="employee-section__name">John Doe</h3>
           <p class="employee-section__position">Product Designer</p>
@@ -186,8 +198,20 @@
         </div>
       </li>
       <li class="employee-section__tile">
-        <img src="./images/employers/img-2.jpg" width="270" height="260"
-          alt="smiling woman with long blonde hair, glasses and a darker jacket." />
+        <picture class="employee__photo">
+          <source srcset="./images/employers/employee2desk1x.jpg 1x, ./images/employers/employee2desk2x.jpg 2x"
+            media="(min-width:1200px)">
+          <source srcset="./images/employers/employee2desk1x.webp 1x, ./images/employers/employee2desk2x.webp 2x"
+            media="(min-width:1200px)" type="image/webp">
+          <source srcset="./images/employers/employee2tab1x.jpg 1x, ./images/employers/employee2tab2x.jpg 2x"
+            media="(min-width:768px)">
+          <source srcset="./images/employers/employee2tab1x.webp 1x, ./images/employers/employee2tab2x.webp 2x"
+            media="(min-width:768px)" type="image/webp">
+
+          <img src="./images/employers/employee2mobile1x.webp 1x, ./images/employers/employee2mobile2x.webp 2x"
+            srcset="./images/employers/employee2mobile1x.jpg 1x, ./images/employers/employee2mobile2x.jpg 2x"
+            alt="smiling woman with long blonde hair, glasses and a darker jacket." />
+          </div>
         <div class="employee-section__description">
           <h3 class="employee-section__name">John Doe</h3>
           <p class="employee-section__position">Frontend Developer</p>
@@ -209,8 +233,21 @@
       </li>
 
       <li class="employee-section__tile">
-        <img src="./images/employers/img-1.jpg" width="270" height="260"
-          alt="smiling man with short facial hair and blue buttoned shirt" />
+        <picture class="employee__photo">
+          <source srcset="./images/employers/employee3desk1x.jpg 1x, ./images/employers/employee3desk2x.jpg 2x"
+            media="(min-width:1200px)">
+          <source srcset="./images/employers/employee3desk1x.webp 1x, ./images/employers/employee3desk2x.webp 2x"
+            media="(min-width:1200px)" type="image/webp">
+          <source srcset="./images/employers/employee3tab1x.jpg 1x, ./images/employers/employee3tab2x.jpg 2x"
+            media="(min-width:768px)">
+          <source srcset="./images/employers/employee3tab1x.webp 1x, ./images/employers/employee3tab2x.webp 2x"
+            media="(min-width:768px)" type="image/webp">
+
+          <img src="./images/employers/employee3mobile1x.webp 1x, ./images/employers/employee3mobile2x.webp 2x"
+            srcset="./images/employers/employee3mobile1x.jpg 1x, ./images/employers/employee3mobile2x.jpg 2x"
+            alt="smiling man with short facial hair and blue buttoned shirt" />
+        </picture>
+         
         <div class="employee-section__description">
           <h3 class="employee-section__name">John Doe</h3>
           <p class="employee-section__position">Marketing</p>
@@ -233,8 +270,21 @@
       </li>
 
       <li class="employee-section__tile">
-        <img src="./images/employers/img.jpg" width="270" height="260"
-          alt="smiling man in glasses, with medium facial hair, and in a black T-shirt" />
+        <picture class="employee__photo">
+          <source srcset="./images/employers/employee4desk1x.jpg 1x, ./images/employers/employee4desk2x.jpg 2x"
+            media="(min-width:1200px)">
+          <source srcset="./images/employers/employee4desk1x.webp 1x, ./images/employers/employee4desk2x.webp 2x"
+            media="(min-width:1200px)" type="image/webp">
+          <source srcset="./images/employers/employee4tab1x.jpg 1x, ./images/employers/employee4tab2x.jpg 2x"
+            media="(min-width:768px)">
+          <source srcset="./images/employers/employee4tab1x.webp 1x, ./images/employers/employee4tab2x.webp 2x"
+            media="(min-width:768px)" type="image/webp">
+
+          <img src="./images/employers/employee4mobile1x.webp 1x, ./images/employers/employee4mobile2x.webp 2x"
+            srcset="./images/employers/employee4mobile1x.jpg 1x, ./images/employers/employee4mobile2x.jpg 2x"
+            alt="smiling man in glasses, with medium facial hair, and in a black T-shirt"  />
+        </picture>
+          
         <div class="employee-section__description">
           <h3 class="employee-section__name">John Doe</h3>
           <p class="employee-section__position">UI Designer</p>
@@ -256,25 +306,25 @@
       </li>
     </ul>
   </section>
-  <section class="customer">
+  <section class="customer container">
     <h2 class="section-header">Nasi klienci</h2>
     <ul class="customer-section__list list">
-      <li class="customer-section__item"><a class="customer-section__link" href="link"><svg class="customer-section__icon" width=170 height=92>
+      <li class="customer-section__item"><a class="customer-section__link" href="link"><svg class="customer-section__icon" width=100% height=100%>
             <use href="./images/icons.svg#icon-logo1"></use>
           </svg></a></li>
-      <li class="customer-section__item"><a class="customer-section__link" href="link"><svg class="customer-section__icon" width=170 height=92>
+      <li class="customer-section__item"><a class="customer-section__link" href="link"><svg class="customer-section__icon" width=100% height=100%>
             <use href="./images/icons.svg#icon-logo2"></use>
           </svg></a></li>
-      <li class="customer-section__item"><a class="customer-section__link" href="link"><svg class="customer-section__icon" width=170 height=92>
+      <li class="customer-section__item"><a class="customer-section__link" href="link"><svg class="customer-section__icon" width=100% height=100%>
             <use href="./images/icons.svg#icon-logo3"></use>
           </svg></a></li>
-      <li class="customer-section__item"><a class="customer-section__link" href="link"><svg class="customer-section__icon" width=84 height=40>
+      <li class="customer-section__item"><a class="customer-section__link" href="link"><svg class="customer-section__icon" width=100% height=100%>
             <use href="./images/icons.svg#icon-logo4"></use>
           </svg></a></li>
-      <li class="customer-section__item"><a class="customer-section__link" href="link"><svg class="customer-section__icon" width=170 height=92>
+      <li class="customer-section__item"><a class="customer-section__link" href="link"><svg class="customer-section__icon" width=100% height=100%>
             <use href="./images/icons.svg#icon-logo5"></use>
           </svg></a></li>
-      <li class="customer-section__item"><a class="customer-section__link" href="link"><svg class="customer-section__icon" width=170 height=92>
+      <li class="customer-section__item"><a class="customer-section__link" href="link"><svg class="customer-section__icon" width=100% height=100%>
             <use href="./images/icons.svg#icon-logo6"></use>
           </svg></a></li>
     </ul>

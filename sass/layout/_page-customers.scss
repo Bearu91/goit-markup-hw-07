@@ -6,48 +6,67 @@
   flex-wrap: wrap;
   align-items: center;
   margin: 0px auto;
+  
+  @media screen and (min-width: 1200px) {
+    padding: 90px 0px;
+  }
+
+
 }
 .customer-section {
  
+  @media screen and (min-width: 1200px) {
+    padding: 90px 0px;
+  }
 
   &__list {
-    margin: 50px auto 0px;
+    margin: 50px 0px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 15px;
-    
+    column-gap: 15px;
+    row-gap: 15px;
     padding: 0 15px;
   }
 
   &__item {
-    display: inline-flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    padding: auto;
-  }
-
-  &__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid getColor('decorative-secondary');
-    border-radius: 4px;
-    width: 170px;
+    width: 100%;
     height: 92px;
-    fill: getColor('decorative-secondary');
-    color: getColor('decorative-secondary');
+    border: 1px solid getColor("decorative-secondary");
+    border-radius: 4px;
+    flex-wrap: wrap;
+    fill: getColor("decorative-secondary");
+    color: getColor("decorative-secondary");
+
+    @media screen and (min-width: 320px) {
+      width: 226px;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 210px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 170px;
+    }
 
     &:hover,
     &:focus {
-      border: 1px solid getColor('decorative-primary');
-      fill: getColor('decorative-primary');
-      color: getColor('decorative-primary');
+      border: 1px solid getColor("decorative-primary");
+      fill: getColor("decorative-primary");
+      color: getColor("decorative-primary");
       transition: color fill border;
       transition-duration: 250ms;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 170px;
+      height: 92px;
     }
   }
 }
