@@ -209,7 +209,7 @@ body {
   letter-spacing: 0.01em;
   color: #757575;
 }
-.modal-form__field-container {
+.modal-form__input-container {
   position: relative;
 }
 .modal-form__input {
@@ -267,7 +267,7 @@ body {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-policy, .modal-check {
+.modal-policy {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -279,17 +279,17 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.modal-policy__statement, .modal-check__statement {
+.modal-policy__statement {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: vargetColor(article-primary);
 }
-.modal-policy__statute, .modal-check__statute {
+.modal-policy__statute {
   color: #2196F3;
   text-decoration: underline;
 }
-.modal-policy__checkbox, .modal-check__checkbox {
+.modal-policy__checkbox {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -301,7 +301,7 @@ body {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-policy__checkbox:checked, .modal-check__checkbox:checked {
+.modal-policy__checkbox:checked {
   fill: #ffffff;
   color: #ffffff;
   border-color: #2196F3;
@@ -309,7 +309,7 @@ body {
   background-image: url("../images/check.svg");
   background-repeat: no-repeat;
 }
-.modal-policy__checkbox:hover, .modal-check__checkbox:hover {
+.modal-policy__checkbox:hover {
   border-color: #2196F3;
 }
 
@@ -1011,7 +1011,7 @@ body {
   background: #2F303A;
 }
 
-.portfolio-gallery {
+.portfolio {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1075,7 +1075,7 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-gallery-container {
+.portfolio-gallery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1090,10 +1090,10 @@ body {
   gap: 30px;
   margin-top: 50px;
 }
-.portfolio-gallery-container__tile {
+.portfolio-gallery__tile {
   position: relative;
 }
-.portfolio-gallery-container__tile:hover, .portfolio-gallery-container__tile:focus {
+.portfolio-gallery__tile:hover, .portfolio-gallery__tile:focus {
   -webkit-transition: -webkit-box-shadow;
   transition: -webkit-box-shadow;
   transition: box-shadow;
@@ -1105,12 +1105,12 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-gallery-container__photo {
+.portfolio-gallery__photo {
   width: 370px;
   height: 294px;
   position: relative;
 }
-.portfolio-gallery-container__photo:hover .gallery-portfolio__overlay, .portfolio-gallery-container__photo:focus .gallery-portfolio__overlay {
+.portfolio-gallery__photo:hover .portfolio-gallery__overlay, .portfolio-gallery__photo:focus .portfolio-gallery__overlay {
   visibility: visible;
   -webkit-transform: scaleY(1);
           transform: scaleY(1);
@@ -1119,7 +1119,7 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-gallery-container__overlay {
+.portfolio-gallery__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -1143,7 +1143,7 @@ body {
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
 }
-.portfolio-gallery-container__title {
+.portfolio-gallery__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -1151,14 +1151,14 @@ body {
   color: #2F303A;
   text-align: left;
 }
-.portfolio-gallery-container__subtitle {
+.portfolio-gallery__subtitle {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
   text-align: left;
 }
-.portfolio-gallery-container__bottom-section {
+.portfolio-gallery__bottom-section {
   padding: 20px 24px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
