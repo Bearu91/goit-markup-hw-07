@@ -1216,13 +1216,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   max-width: 1200px;
-  padding: 94px 0px 35px;
+  padding: 94px 0px;
   margin: 0 auto;
 }
 
@@ -1237,11 +1232,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 15px;
 }
 .gallery-filters__btn {
@@ -1300,8 +1292,6 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-gallery__photo {
-  width: 370px;
-  height: 294px;
   position: relative;
 }
 .portfolio-gallery__photo:hover .portfolio-gallery__overlay, .portfolio-gallery__photo:focus .portfolio-gallery__overlay {
